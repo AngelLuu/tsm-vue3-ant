@@ -161,5 +161,10 @@
     "*.env": "$(capture).env.*",
     "package.json": "pnpm-lock.yaml,yarn.lock,LICENSE,README*,CHANGELOG*,CNAME,.gitattributes,.gitignore,prettier.config.js,stylelint.config.js,commitlint.config.js,.stylelintignore,.prettierignore,.gitpod.yml,.eslintrc.js,.eslintignore"
   },
-  "terminal.integrated.scrollback": 10000
+  "terminal.integrated.scrollback": 10000,
+  "editor.quickSuggestions": {
+    "other": true, 
+    "comments": true,
+    "strings": true
+  }
 }

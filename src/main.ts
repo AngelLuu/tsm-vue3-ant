@@ -1,5 +1,5 @@
-import 'uno.css'
 import 'ant-design-vue/dist/reset.css'
+import 'uno.css'
 import './design/index.less'
 
 // Register icon sprite

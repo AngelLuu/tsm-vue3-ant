@@ -34,6 +34,15 @@ const dashboard: AppRouteModule = {
         icon: 'ant-design:appstore-outlined',
       },
     },
+    {
+      path: 'demo',
+      name: 'Demo',
+      component: () => import('@/views/demo/index.vue'),
+      meta: {
+        title: '测试',
+        icon: 'ant-design:appstore-outlined',
+      },
+    },
   ],
 }
 
